@@ -1,0 +1,40 @@
+body{
+    background-color: #2B2E33;
+}
+
+.titulo{
+    background-color: #1d797977;
+    text-align: center;
+    border-radius: 5px; 
+    transition: 0.2s;  
+    padding: 5px;
+}
+
+.titulo:hover{
+    background-color: rgb(49, 78, 97);
+}
+
+.subtitulo{
+    color: #16b4b477;
+   
+}
+
+header{
+    color: white;
+}
+
+main{
+    color: white;
+}
+
+.paragrafos{
+    text-indent:15px;
+    font-family:georgia ;
+    font-size: 14px;
+}
+
+.img{
+   max-width: 400px;
+   max-width: 400px;
+   
+}
