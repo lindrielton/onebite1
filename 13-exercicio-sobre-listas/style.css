@@ -1,0 +1,36 @@
+
+body{
+    background-color: #2B2E33;
+}
+
+h1{
+    color:#FFFFFF;
+    text-align: center;
+    font-variant: small-caps;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.cor{
+    color:#048d31;
+    padding: px;
+}
+
+ol li{
+    cursor: pointer;
+    color: #fffffff8;
+    font-variant: all-small-caps;
+    
+    
+}
+
+ol li:hover{
+    color: aqua;
+    transform: scalex(1.1);
+    transition: 1.1s;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+    
+}
