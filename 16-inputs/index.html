@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form>
+      <label for="nome">nome</label>
+      <input type="text" name="nome" id="nome" required> <!--name identifica no backende-->
+      <button type="submit">enviar</button>
+      <br></br>
+
+      <label for="email">seu email</label>
+      <input type="email" name="email" id="email" placeholder="seu email" required>
+      <button type="submit">enviar</button>
+      <br></br>
+
+
+      <label for="senha">coloque a senha</label>
+      <input type="password" name="senha" id="senha" min="8" max="18" requered>
+      <button type="submit"> enviar</button>
+      <br></br>
+       
+
+      <label for="masculino">masculino</label>
+      <input type="radio" name="radio" id="masculino" value="m">
+      <label for="feminino">feminino</label>
+      <input type="radio" name="radio" id="feminino" value="f">
+      <button type="submit">enviar</button>
+      <br></br>
+ 
+      <label>Interesses:</label>
+      <input type="checkbox" id="backend" value="backend" name="interesses">
+      <label for="backend"> back-end</label>
+      <input type="checkbox" id="frontend" value="frontend" name="interesses">
+      <label for="frontend">front-end</label>
+      <input type="checkbox" id="mobile" value="mobile" name="interesses">
+      <label for="mobile"> mobile</label>
+      <br></br>
+
+
+
+      <label for="datadenascimento">Data de nascimento </label>
+      <input type="date" id="datadenascimento" name="nascimento">
+      <br></br>
+
+
+
+      <label for="fotoDeperfil"></label>
+      <input type="file" name="avatar" id="fotoDePerfio">
+      <br></br>
+      <button type="submit">Enviar</button>
+      
+
+   </form>
+</body>
+</html>
