@@ -1,1 +1,21 @@
 
+body{
+    background-color: darkslategray;
+    color: lightcyan;
+}
+
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+}
+
+ #desenvolvedor{
+    cursor:pointer;
+}

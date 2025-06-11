@@ -9,32 +9,50 @@
 <body>
    <h1>formulá de inscrição</h1>
    <form>
-      <label for="nome">Nome:</label><br>
-      <input type="text" name="nome" id="nome" required>
-  <br></br>
+      <div>
+          <label for="nome">Nome:</label><br>
+          <input type="text" name="nome" id="nome" required>
+      </div>
+  <br>
       <label for="email">Email:</label><br>
       <input type="email" name="email" id="email" placeholder="blablabla@gmail.com"><br>
   <br>
-      <label for="whats">Watsapp:</label><br>
-      <input type="tel" name="whats" id="numero-celular" placeholder="(xx) xxxxx-xxxx" pattern="\(\d{2}\) \d{5}-\d{4}" required>
-  <br></br>
-      <label for="area">Área de atuação</label><br>
-      <input type="radio" name="area" id="desenvovedor" value="desen">
-      <label for="cargo">Desenvolvedor</label>
-      <input type="radio" name="area" id="qualy" value="(QA)">
-      <label for="cargo">Quality Assunrance:</label>
-      <input type="radio" name="area" id="Análise de dados" value="análise">
-      <label for="cargo">Análise de dados</label>
-      <input type="radio" name="area" id="infraestrutura" value="infra">
-      <label for="cargo">infraestrutura</label>
-      <br></br>
+      <div>
+          <label for="whats">Watsapp:</label><br>
+          <input type="tel" name="whats" id="numero-celular" placeholder="(xx) xxxxx-xxxx" pattern="\(\d{2}\) \d{5}-\d{4}" required>
+      </div>
 
-      <label for="obicervações">Obicervações</label><br>
-      <textarea name="texto" id="atenção" placeholder="escreva aqui"></textarea>
-    <br></br>
-      <input type="checkbox" id="marco" name="marcando"> 
-      <label for="marco">Deseja receber novidades e ofertas por email.</label>
-      <button type="submit">enviar</button>
+  <br>
+      <label for="area">Área de atuação</label><br>
+      <div>
+          <input type="radio" name="area" id="desenvolvedor" value="desen">
+          <label for="cargo">Desenvolvedor</label>
+
+          <input type="radio" name="area" id="qualy" value="(QA)">
+          <label for="cargo">Quality Assunrance:</label>
+
+          <input type="radio" name="area" id="Análise de dados" value="análise">
+          <label for="cargo">Análise de dados</label>
+
+          <input type="radio" name="area" id="infraestrutura" value="infra">
+          <label for="cargo">infraestrutura</label>
+          
+      </div>
+
+     <br>
+
+      <div>
+          <label for="obicervações">Obicervações</label>
+          <br>
+          <textarea name="texto" id="atenção" placeholder="escreva aqui" cols="30" rows="3"></textarea>
+      </div>
+
+    <br>
+          <input type="checkbox" id="marco" name="marcando" checked required>
+          <label for="marco">Deseja receber novidades e ofertas por email.</label>
+          <br>
+          <input type="submit" value="enviar">
+      </div>
    </form>
 </body>
 </html>
