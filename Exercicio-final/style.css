@@ -1,1 +1,12 @@
+a{
+    text-decoration: none;
+    cursor: pointer;
+    transform:scale(1.2, 3.2);
 
+}
+
+img:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+    transition: 1s;
+}
